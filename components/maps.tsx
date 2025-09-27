@@ -24,7 +24,9 @@ export function Maps() {
         </div>
       </div>
       <div className="flex justify-end">
-        <Button className="mb-5">Copy Link Maps</Button>
+        <a target="_blank" href="https://maps.app.goo.gl/7JhTHPzfCWx229tCA">
+          <Button className="mb-5">Go Maps</Button>
+        </a>
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.412294608432!2d110.35846047455328!3d-7.746017876793638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58ee3cd1f787%3A0x2f140ec5b15fcb68!2sKenteng%20magic!5e0!3m2!1sid!2sid!4v1758952227122!5m2!1sid!2sid"
