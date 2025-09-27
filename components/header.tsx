@@ -36,6 +36,18 @@ export function Header() {
               Tentang
             </a>
             <a
+              href="#maps"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Maps
+            </a>
+            <a
+              href="#gallery"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Gallery
+            </a>
+            <a
               href="#contact"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
@@ -44,14 +56,16 @@ export function Header() {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button
-              variant="outline"
-              size="sm"
-              className="flex items-center gap-2 bg-transparent"
-            >
-              <Phone className="h-4 w-4" />
-              Hubungi Kami
-            </Button>
+            <a href="#contact">
+              <Button
+                variant="outline"
+                size="sm"
+                className="flex items-center gap-2 bg-transparent"
+              >
+                <Phone className="h-4 w-4" />
+                Hubungi Kami
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -91,6 +105,18 @@ export function Header() {
                 className="block px-3 py-2 text-muted-foreground hover:text-foreground"
               >
                 Tentang
+              </a>
+              <a
+                href="#maps"
+                className="block px-3 py-2 text-muted-foreground hover:text-foreground"
+              >
+                Maps
+              </a>
+              <a
+                href="#gallery"
+                className="block px-3 py-2 text-muted-foreground hover:text-foreground"
+              >
+                Gallery
               </a>
               <a
                 href="#contact"

@@ -3,7 +3,7 @@ import { ArrowRight, Shield, Award, Clock } from "lucide-react";
 
 export function Hero() {
   return (
-    <section id="home" className="pt-16 pb-20 px-4 sm:px-6 lg:px-8">
+    <section id="home" className="pt-16 pb-20 px-4 sm:px-6 lg:px-8 mt-10">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           <div className="space-y-8">
@@ -23,13 +23,17 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="flex items-center gap-2">
-                Konsultasi Gratis
-                <ArrowRight className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="lg">
-                Lihat Portfolio
-              </Button>
+              <a href="#contact">
+                <Button size="lg" className="flex items-center gap-2">
+                  Konsultasi Gratis
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </a>
+              <a href="#gallery">
+                <Button variant="outline" size="lg">
+                  Lihat Portfolio
+                </Button>
+              </a>
             </div>
 
             <div className="flex justify-between max-w-[100%]  lg:max-w-[80%] mt-10">
@@ -53,7 +57,8 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center">
               <img
-                src="/professional-automotive-body-repair-workshop-with-.jpg"
+                // src="/professional-automotive-body-repair-workshop-with-.jpg"
+                src="/16.jpg"
                 alt="Kenteng Magic Workshop"
                 className="w-full h-full object-cover rounded-2xl"
               />

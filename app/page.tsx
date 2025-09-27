@@ -5,6 +5,7 @@ import { About } from "@/components/about";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { Maps } from "@/components/maps";
+import { Gallery } from "@/components/gallery";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Services />
       <About />
       <Maps />
+      <Gallery />
       <Contact />
       <Footer />
     </main>
