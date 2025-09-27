@@ -55,7 +55,7 @@ Pesan: ${msg.Pesan || "-"}
 
   const Submit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    openWa("6281225798699");
+    openWa("628156933499");
   };
 
   const openWa = (phone: string) => {
